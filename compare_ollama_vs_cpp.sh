@@ -45,7 +45,7 @@ $HOME/ai-local/llama.cpp/build/bin/llama-cli \
     -t $PHYSICAL_CORES \
     -p "$TEST_PROMPT" \
     -n 150 \
-    --color
+    --color auto
 
 echo ""
 echo -e "${GREEN}^ Podívejte se na 'eval time' výše${NC}"

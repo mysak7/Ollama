@@ -116,7 +116,7 @@ echo ""
     -n -1 \\
     -cnv \\
     -p "You are Qwen, a helpful AI assistant created by Alibaba Cloud." \\
-    --color \\
+    --color auto \\
     -fa \\
     --temp 0.7 \\
     \$@
